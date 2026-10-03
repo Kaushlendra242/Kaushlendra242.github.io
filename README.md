@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kaushlendra Pratap Singh — GitHub Pages Portfolio
 
 Professional portfolio website for **Data Analyst | Business Intelligence | Power BI | SQL | Python**.
@@ -69,3 +70,7 @@ The current project cards use CSS-generated visual placeholders, so the site wor
 ## Important
 
 Do not upload confidential employer data, PHI, credentials, passwords, API keys or private reports.
+=======
+# Kaushlendra242.github.io
+Personal portfolio — Data Analyst | Business Intelligence | Power BI | SQL | Python
+>>>>>>> c9efc1477cab75c718cfd2f99261d55f8f6ab1b4
