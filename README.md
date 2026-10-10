@@ -1,76 +1,53 @@
-<<<<<<< HEAD
 # Kaushlendra Pratap Singh — GitHub Pages Portfolio
 
-Professional portfolio website for **Data Analyst | Business Intelligence | Power BI | SQL | Python**.
+Professional portfolio for Data Analytics, Business Intelligence, Power BI, SQL and Machine Learning opportunities.
 
-## Repository structure
-
+## Structure
 ```text
-.
-├── index.html
-├── assets/
-│   ├── css/style.css
-│   ├── js/script.js
-│   ├── images/
-│   └── resume/
-├── projects/
-│   ├── telecom.html
-│   ├── glycotrack.html
-│   ├── supermart.html
-│   ├── customer-satisfaction.html
-│   ├── netflix.html
-│   └── road-accident.html
-└── README.md
-```
-
-## Before publishing
-
-Replace these placeholders in `index.html` and the project pages:
-
-- `YOUR_GITHUB_URL`
-- `YOUR_LINKEDIN_URL`
-- `YOUR_EMAIL`
-- `YOUR_TELECOM_REPOSITORY_URL`
-- `YOUR_GLYCOTRACK_REPOSITORY_URL`
-- `YOUR_SUPERMART_REPOSITORY_URL`
-- `YOUR_CUSTOMER_SATISFACTION_REPOSITORY_URL`
-- `YOUR_NETFLIX_REPOSITORY_URL`
-- `YOUR_ROAD_ACCIDENT_REPOSITORY_URL`
-
-## Add your own files
-
-Place your real files here:
-
-```text
-assets/images/
+index.html
+README.md
+assets/
+  css/style.css
+  js/script.js
+  images/
     profile.jpg
-    telecom-dashboard.png
-    glycotrack.png
-    supermart.png
-    customer-satisfaction.png
-    netflix.png
-    road-accident.png
-
-assets/resume/
-    Kaushlendra_P_Singh_Resume.pdf
+    telecom-dashboard.svg
+    glycotrack.svg
+    supermart.svg
+    customer-satisfaction.svg
+    netflix.svg
+    road-accident.svg
 ```
 
-The current project cards use CSS-generated visual placeholders, so the site works even before screenshots are added. Replace them with your real screenshots later.
+## Add your profile photo
+Put your professional photo here:
+`assets/images/profile.jpg`
 
-## Publish with GitHub Pages
+Recommended: square JPG, 800×800 or larger. If it is missing, the site automatically displays a clean KP fallback.
 
-1. Create a repository named `<YOUR_USERNAME>.github.io`.
-2. Upload the contents of this folder to the repository.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/ (root)`.
-6. Save and wait for the deployment.
-7. Open `https://<YOUR_USERNAME>.github.io`.
+## Add real project screenshots
+The current SVG covers are intentional placeholders so the portfolio never shows broken images. You can replace them with your actual screenshots and update the image names in `assets/js/script.js`.
 
-## Important
+Recommended screenshots: 1600×900 PNG/JPG, especially your Power BI dashboard and Streamlit app screens.
 
-Do not upload confidential employer data, PHI, credentials, passwords, API keys or private reports.
-=======
-# Kaushlendra242.github.io
-Personal portfolio — Data Analyst | Business Intelligence | Power BI | SQL | Python
->>>>>>> c9efc1477cab75c718cfd2f99261d55f8f6ab1b4
+## Git commands
+```powershell
+git add .
+git commit -m "Upgrade portfolio design and project showcase"
+git pull --rebase origin main
+git push -u origin main
+```
+
+## GitHub Pages
+Repository → Settings → Pages → Deploy from branch → `main` → `/ (root)` → Save.
+
+Your site should be available at:
+`https://kaushlendra242.github.io/`
+
+## Before sharing with recruiters
+- Replace the LinkedIn placeholder URL with your real LinkedIn profile.
+- Add a professional profile photo.
+- Replace SVG project covers with real dashboard/app screenshots.
+- Verify each GitHub repository URL.
+- Add your latest PDF resume if you want a download button.
+- Keep the Telecom Churn project as the lead BI case study.
